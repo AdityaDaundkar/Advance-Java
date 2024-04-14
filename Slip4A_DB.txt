@@ -1,0 +1,4 @@
+CREATE TABLE Student (Sno INT PRIMARY KEY AUTO_INCREMENT, Sname VARCHAR(255) NOT NULL);
+INSERT INTO Student (Sno, Sname) VALUES (1, 'Aditya'),(2, 'Suraj'), (3, 'Mohit');
+INSERT INTO Student (Sno, Sname) VALUES (4, 'Sumit'),(5, 'Sujay'), (6, 'Gaurav');
+SELECT * from Student;
